@@ -1,13 +1,13 @@
 PODS:
-  - MGCategoryKit (0.1.3):
-    - MGCategoryKit/categoryFile (= 0.1.3)
-    - MGCategoryKit/controller (= 0.1.3)
-    - MGCategoryKit/Model (= 0.1.3)
-    - MGCategoryKit/View (= 0.1.3)
-  - MGCategoryKit/categoryFile (0.1.3)
-  - MGCategoryKit/controller (0.1.3)
-  - MGCategoryKit/Model (0.1.3)
-  - MGCategoryKit/View (0.1.3)
+  - MGCategoryKit (0.1.4):
+    - MGCategoryKit/categoryFile (= 0.1.4)
+    - MGCategoryKit/controller (= 0.1.4)
+    - MGCategoryKit/Model (= 0.1.4)
+    - MGCategoryKit/View (= 0.1.4)
+  - MGCategoryKit/categoryFile (0.1.4)
+  - MGCategoryKit/controller (0.1.4)
+  - MGCategoryKit/Model (0.1.4)
+  - MGCategoryKit/View (0.1.4)
 
 DEPENDENCIES:
   - MGCategoryKit (from `../`)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MGCategoryKit: 191a1f37ccde1064d10a5dc13cd795927e5be4d8
+  MGCategoryKit: cc85e53782d5bff7ffebeff5078ea22e284cc555
 
 PODFILE CHECKSUM: 27e9ce96daacf18033a5e4ec088e36a7db0cb3d6
 

@@ -7,6 +7,7 @@
 //
 
 #import "MGViewController.h"
+#import <MGCategoryKit/PersonView.h>
 
 @interface MGViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    PersonView *view = [[PersonView alloc] initWithFrame:CGRectMake(50, 100, 100, 100)];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning
