@@ -1,5 +1,5 @@
 PODS:
-  - MGCategoryKit (0.1.0)
+  - MGCategoryKit (0.1.1)
 
 DEPENDENCIES:
   - MGCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MGCategoryKit: 5df6e8e5db7d7afcda3cdab8aa0ff49b05b33acb
+  MGCategoryKit: a0f52eea0a80c4e1c4e287334d1ac41ec944e902
 
 PODFILE CHECKSUM: 27e9ce96daacf18033a5e4ec088e36a7db0cb3d6
 
