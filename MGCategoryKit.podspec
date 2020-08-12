@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGCategoryKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of MGCategoryKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,26 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files ='MGCategoryKit/Classes/**/*','MGCategoryKit/SubClasses/**/*'
-  # s.resource_bundles = {
-  #   'MGCategoryKit' => ['MGCategoryKit/Assets/*.png']
-  # }
+  s.subspec 'categoryFile' do |ss|
+    ss.source_files = 'MGCategoryKit/Classes/categoryFile/*'
+  end
+  
+  s.subspec 'controller' do |ss|
+    ss.source_files = 'MGCategoryKit/Classes/controller/*'
+  end
+  
+  s.subspec 'Model' do |ss|
+    ss.source_files = 'MGCategoryKit/Classes/Model/*'
+  end
+  
+  s.subspec 'View' do |ss|
+    ss.source_files = 'MGCategoryKit/Classes/View/*'
+  end
+  
+  s.source_files ='MGCategoryKit/SubClasses/**/*'
+   s.resource_bundles = {
+     'MGCategoryKit' => ['MGCategoryKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
